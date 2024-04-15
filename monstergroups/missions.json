@@ -1,0 +1,13 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_REFUGEE_BOSS_ZOMBIE",
+    "default": "mon_zombie_tough",
+    "//": "The refugee center mission 1 enemy is chosen from here",
+    "monsters": [
+      { "monster": "mon_feral_tough_pipe_mace", "weight": 333 },
+      { "group": "GROUP_FERAL_RIOTER", "weight": 333 },
+      { "monster": "mon_feral_human_static", "weight": 333 }
+    ]
+  }
+]

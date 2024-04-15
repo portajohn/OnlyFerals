@@ -1,0 +1,12 @@
+[
+{
+    "name": "GROUP_RUST_UPGRADE",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_rust_0", "weight": 250 },
+      { "monster": "mon_feral_rust_1", "weight": 250 },
+      { "monster": "mon_feral_rust_3", "weight": 250 },
+      { "monster": "mon_feral_rust_5", "weight": 250, "cost_multiplier": 2 }
+    ]
+  }
+]

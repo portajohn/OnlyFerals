@@ -1,0 +1,216 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MAYBE_MIL",
+    "//": "50% chance military zombie or robot",
+    "monsters": [
+      { "monster": "mon_null", "weight": 925 },
+      { "monster": "mon_feral_soldier", "weight": 35 },
+      { "monster": "mon_dispatch", "weight": 10, "cost_multiplier": 50 },
+      { "monster": "mon_dispatch_military", "weight": 5, "cost_multiplier": 80 },
+      { "monster": "mon_talon_m202a1", "weight": 15, "cost_multiplier": 50 },
+      { "monster": "mon_feral_military_pilot", "weight": 15 },
+      { "monster": "mon_feral_soldier", "weight": 15 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_WEAK",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_soldier", "weight": 645 },
+      { "monster": "mon_feral_soldier", "weight": 150, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_feral_military_pilot", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_STRONG",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_soldier", "weight": 565 },
+      { "monster": "mon_feral_soldier", "weight": 100, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_feral_soldier", "weight": 150, "cost_multiplier": 2, "pack_size": [ 2, 6 ] },
+      { "monster": "mon_feral_military_pilot", "weight": 5 },
+      { "monster": "mon_zombie_bio_op", "weight": 50, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_bio_op2", "weight": 25, "cost_multiplier": 5, "starts": "60 days" },
+      { "monster": "mon_feral_armored", "weight": 10, "cost_multiplier": 5 },
+      { "monster": "mon_feral_soldier", "weight": 15 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_HELIPAD",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_soldier", "weight": 645 },
+      { "monster": "mon_feral_soldier", "weight": 150, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_zombie_milbase_personnel", "weight": 100 },
+      { "monster": "mon_feral_military_pilot", "weight": 45 },
+      { "monster": "mon_feral_soldier", "weight": 15 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_PILOT",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_feral_military_pilot" } ]
+  },
+  {
+    "name": "GROUP_MIL_PASSENGER",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_soldier", "weight": 245 },
+      { "group": "GROUP_FERAL_HAZMAT", "weight": 25 },
+      { "monster": "mon_zombie_bio_op", "weight": 5 },
+      { "monster": "mon_zombie_soldier_blackops_1", "weight": 5 },
+      { "monster": "mon_feral_armored", "weight": 1, "cost_multiplier": 5 },
+      { "monster": "mon_feral_scientist_scalpel", "weight": 20 },
+      { "monster": "mon_feral_medical", "weight": 6 },
+      { "monster": "mon_zombie", "weight": 5 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_BASE",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_soldier", "weight": 580 },
+      { "monster": "mon_feral_soldier", "weight": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_1", "weight": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_kevlar_1", "weight": 50, "cost_multiplier": 10 },
+      { "monster": "mon_feral_military_pilot", "weight": 5 },
+      { "monster": "mon_zombie_milbase_personnel", "weight": 40 },
+      { "monster": "mon_zombie_bio_op", "weight": 30, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_soldier_blackops_1", "weight": 15, "cost_multiplier": 10 },
+      { "monster": "mon_feral_armored", "weight": 5, "cost_multiplier": 5 },
+      { "monster": "mon_null", "weight": 25 },
+      { "group": "GROUP_FERAL_HAZMAT", "weight": 25 },
+      { "monster": "mon_zombie", "weight": 10 },
+      { "monster": "mon_feral_soldier", "weight": 15 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE_CIVILIAN",
+    "//": "Civilians with soldiers and burned ones.",
+    "monsters": [
+      { "monster": "mon_zombie", "weight": 415 },
+      { "monster": "mon_fat_feral", "weight": 60, "cost_multiplier": 2 },
+      { "monster": "mon_null", "weight": 30 },
+      { "monster": "mon_feral_tough_pipe_mace", "weight": 40, "cost_multiplier": 3 },
+      { "monster": "mon_rotten_feral", "weight": 20, "cost_multiplier": 2 },
+      { "monster": "mon_rotten_feral", "weight": 10, "cost_multiplier": 2 },
+      { "monster": "mon_feral_runner", "weight": 40, "cost_multiplier": 5, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_feral_brainless", "weight": 20 },
+      { "monster": "mon_feral_cop", "weight": 20, "cost_multiplier": 2 },
+      { "group": "GROUP_FERAL_HAZMAT", "weight": 10, "cost_multiplier": 2 },
+      { "group": "GROUP_FERAL_FIREMEN", "weight": 5, "cost_multiplier": 2 },
+      { "monster": "mon_dog_zombie_cop", "weight": 2, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_dog", "weight": 5, "cost_multiplier": 2 },
+      { "monster": "mon_dog_zombie_rot", "weight": 5, "cost_multiplier": 2 },
+      {
+        "monster": "mon_feral_swimmer_kickboard",
+        "weight": 6,
+        "cost_multiplier": 2,
+        "ends": "165 days",
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      { "monster": "mon_feral_human_static", "weight": 30, "cost_multiplier": 5 },
+      { "monster": "mon_feral_paramilitary", "weight": 1, "cost_multiplier": 25 },
+      { "monster": "mon_feral_sapien_spear", "weight": 2, "cost_multiplier": 25 },
+      { "monster": "mon_null", "weight": 25, "cost_multiplier": 2 },
+      { "monster": "mon_feral_soldier", "weight": 200, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_milbase_personnel", "weight": 50 },
+      { "monster": "mon_feral_military_pilot", "weight": 5 },
+      { "monster": "mon_feral_soldier", "weight": 75 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE_HOSPITAL",
+    "//": "Civilians with soldiers, doctors and burned ones. More hazmat.",
+    "monsters": [
+      { "monster": "mon_zombie", "weight": 50, "cost_multiplier": 2 },
+      { "monster": "mon_fat_feral", "weight": 60, "cost_multiplier": 2 },
+      { "monster": "mon_null", "weight": 40 },
+      { "monster": "mon_feral_tough_pipe_mace", "weight": 40, "cost_multiplier": 3 },
+      { "monster": "mon_rotten_feral", "weight": 20, "cost_multiplier": 2 },
+      { "monster": "mon_rotten_feral", "weight": 10, "cost_multiplier": 2 },
+      { "monster": "mon_feral_runner", "weight": 40, "cost_multiplier": 5, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_feral_brainless", "weight": 20 },
+      { "monster": "mon_feral_cop", "weight": 20, "cost_multiplier": 2 },
+      { "group": "GROUP_FERAL_HAZMAT", "weight": 100, "cost_multiplier": 2 },
+      { "group": "GROUP_FERAL_FIREMEN", "weight": 20, "cost_multiplier": 2 },
+      { "monster": "mon_dog_zombie_cop", "weight": 5, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_dog", "weight": 10, "cost_multiplier": 2 },
+      { "monster": "mon_dog_zombie_rot", "weight": 5, "cost_multiplier": 2 },
+      {
+        "monster": "mon_feral_swimmer_kickboard",
+        "weight": 11,
+        "cost_multiplier": 2,
+        "ends": "165 days",
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      { "monster": "mon_feral_human_static", "weight": 30, "cost_multiplier": 5 },
+      { "monster": "mon_feral_paramilitary", "weight": 1, "cost_multiplier": 25 },
+      { "monster": "mon_feral_sapien_spear", "weight": 2, "cost_multiplier": 25 },
+      { "monster": "mon_null", "weight": 25 },
+      { "monster": "mon_feral_soldier", "weight": 322, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_milbase_personnel", "weight": 50 },
+      { "monster": "mon_feral_military_pilot", "weight": 20 },
+      { "monster": "mon_feral_scientist_scalpel", "weight": 100 },
+      { "monster": "mon_feral_soldier", "weight": 75 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER",
+    "type": "monstergroup",
+    "//": "no children, 40% tech personel 20% civilian personel (med, fire, cook, clercs etc), 20% uniformed zombie, 10% army pilots, and 10% military zeds",
+    "monsters": [
+      { "monster": "mon_feral_human_tool", "weight": 15 },
+      { "monster": "mon_feral_sailor_lug_wrench", "weight": 15 },
+      { "monster": "mon_feral_officer", "weight": 6 },
+      { "group": "GROUP_FERAL_SAILOR", "weight": 10 },
+      { "group": "GROUP_FERAL_FIREMEN", "weight": 6 },
+      { "monster": "mon_feral_medical", "weight": 6 },
+      { "monster": "mon_fat_feral", "weight": 6 },
+      { "monster": "mon_feral_marine_bayonet", "weight": 6 },
+      { "monster": "mon_feral_brainless", "weight": 6 },
+      { "monster": "mon_feral_brainless", "weight": 6 },
+      { "group": "GROUP_FERAL_SAILOR", "weight": 18 },
+      { "monster": "mon_feral_military_pilot", "weight": 18 },
+      { "group": "GROUP_FERAL_SAILOR", "weight": 6 },
+      { "monster": "mon_feral_military_pilot", "weight": 6 },
+      { "monster": "mon_feral_marine_bayonet", "weight": 15, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_feral_marine_bayonet", "weight": 2, "cost_multiplier": 10 },
+      { "monster": "mon_feral_officer", "weight": 2, "cost_multiplier": 10, "starts": "15 days" },
+      { "monster": "mon_feral_sailor_wrench", "weight": 6 },
+      { "monster": "mon_feral_sailor_mop", "weight": 6 },
+      { "monster": "mon_feral_sailor_axe", "weight": 6 },
+      { "monster": "mon_feral_marine_bayonet", "weight": 6 },
+      { "monster": "mon_feral_sailor_wrench", "weight": 6 },
+      { "monster": "mon_feral_marine_bayonet", "weight": 6 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER_TECHNICIANS",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_human_tool", "weight": 67 },
+      { "monster": "mon_feral_sailor_lug_wrench", "weight": 67 },
+      { "group": "GROUP_FERAL_SAILOR", "weight": 12 },
+      { "group": "GROUP_FERAL_FIREMEN", "weight": 6 },
+      { "monster": "mon_feral_officer", "weight": 6 },
+      { "monster": "mon_feral_medical", "weight": 6 },
+      { "monster": "mon_fat_feral", "weight": 6 },
+      { "monster": "mon_feral_sailor_wrench", "weight": 6 },
+      { "monster": "mon_feral_sailor_mop", "weight": 6 },
+      { "monster": "mon_feral_sailor_axe", "weight": 6 },
+      { "monster": "mon_feral_marine_bayonet", "weight": 6 },
+      { "monster": "mon_feral_sailor_wrench", "weight": 6 },
+      { "monster": "mon_feral_officer", "weight": 3 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_MASS_GRAVE",
+    "type": "monstergroup",
+    "//": "Lots of hazmats.",
+    "monsters": [ { "monster": "mon_feral_soldier", "weight": 10 }, { "group": "GROUP_FERAL_HAZMAT", "weight": 20 } ]
+  }
+]
