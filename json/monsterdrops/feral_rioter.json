@@ -1,0 +1,123 @@
+[
+{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_feral_rioter_death_drops_pipe",
+     "entries": [
+      { "group": "clothing_outdoor_set", "damage": [ 2, 4 ], "prob": 100 },
+ { "item": "pipe", "prob": 100, "damage": [ 2, 4 ] },
+{
+        "distribution": [
+          { "item": "mask_rioter",   "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "bandana",       "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "helmet_motor",
+"prob": 20, "damage": [ 2, 4 ] },
+          { "item": "helmet_football", "prob": 15, "damage": [ 2, 4 ] },
+          { "item": "helmet_ball",   "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "airsoft_helmet", "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "mask_hockey",   "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          {
+        "distribution": [
+          { "item": "chestguard_hard",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "motorbike_armor", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "football_armor", "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          { "item": "armguard_hard",  "damage": [ 2, 4 ] },
+          { "item": "legguard_hard",  "damage": [ 2, 4 ] },
+          {
+          "distribution": [
+          { "item": "gloves_fingerless",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "gloves_airsoft", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "gloves_tactical", "prob": 5, "damage": [ 2, 4 ] }
+          ] }
+    ]
+  },
+{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_feral_rioter_death_drops_crowbar",
+     "entries": [
+      { "group": "clothing_outdoor_set", "damage": [ 2, 4 ], "prob": 100 },
+        {
+        "distribution": [
+          { "item": "crowbar", "prob": 40, "damage": [ 1, 3 ] },
+          { "item": "makeshift_crowbar", "prob": 40, "damage": [ 1, 3 ] },
+          { "item": "heavy_crowbar", "prob": 10, "damage": [ 2, 4 ] }
+                        ]
+        },
+        {
+        "distribution": [
+          { "item": "mask_rioter",   "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "bandana",       "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "helmet_motor",
+"prob": 20, "damage": [ 2, 4 ] },
+          { "item": "helmet_football", "prob": 15, "damage": [ 2, 4 ] },
+          { "item": "helmet_ball",   "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "airsoft_helmet", "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "mask_hockey",   "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          {
+        "distribution": [
+          { "item": "chestguard_hard",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "motorbike_armor", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "football_armor", "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          { "item": "armguard_hard",  "damage": [ 2, 4 ] },
+          { "item": "legguard_hard",  "damage": [ 2, 4 ] },
+          {
+          "distribution": [
+          { "item": "gloves_fingerless",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "gloves_airsoft", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "gloves_tactical", "prob": 5, "damage": [ 2, 4 ] }
+          ] }
+    ]
+  },
+{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_feral_rioter_death_drops_bat",
+     "entries": [
+      { "group": "clothing_outdoor_set", "damage": [ 2, 4 ], "prob": 100 },
+        {
+        "distribution": [
+          { "item": "bat", "prob": 45, "damage": [ 1, 3 ] },
+          { "item": "nailbat", "prob": 25, "damage": [ 1, 3 ] },
+          { "item": "bwirebat", "prob": 25, "damage": [ 1, 3 ] },
+          { "item": "bat_metal", "prob": 5, "damage": [ 2, 4 ] }
+                        ]
+        },
+        {
+        "distribution": [
+          { "item": "mask_rioter",   "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "bandana",       "prob": 25,  "damage": [ 2, 4 ] },
+          { "item": "helmet_motor",
+"prob": 20, "damage": [ 2, 4 ] },
+          { "item": "helmet_football", "prob": 15, "damage": [ 2, 4 ] },
+          { "item": "helmet_ball",   "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "airsoft_helmet", "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "mask_hockey",   "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          {
+        "distribution": [
+          { "item": "chestguard_hard",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "motorbike_armor", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "football_armor", "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+          { "item": "armguard_hard",  "damage": [ 2, 4 ] },
+          { "item": "legguard_hard",  "damage": [ 2, 4 ] },
+          {
+          "distribution": [
+          { "item": "gloves_fingerless",
+"prob": 75, "damage": [ 2, 4 ] },
+          { "item": "gloves_airsoft", "prob": 20, "damage": [ 2, 4 ] },
+          { "item": "gloves_tactical", "prob": 5, "damage": [ 2, 4 ] }
+          ] }
+    ]
+  }
+]

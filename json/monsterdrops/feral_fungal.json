@@ -1,0 +1,15 @@
+[
+{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_human_fungal_infected_death_drops",
+    "entries": [
+      { "item": "leather", "count": [ 0, 3 ], "prob": 25 },
+      { "item": "cotton_patchwork", "count": [ 0, 3 ], "prob": 40 },
+      { "item": "thread", "charges": [ 0, 12 ], "prob": 60 },
+      { "item": "thread_kevlar", "count": [ 0, 10 ], "prob": 25 },
+      { "item": "thread_canvas", "count": [ 0, 8 ], "prob": 40 },
+      { "item": "veggy_tainted", "count": [ 0, 2 ], "prob": 25 }
+ ]
+}
+]

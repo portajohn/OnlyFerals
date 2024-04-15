@@ -1,0 +1,13 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_feral_truther_death_drops",
+     "entries": [
+      { "item": "tinfoil_hat",
+"prob": 100, "damage": [ 1, 3 ]
+      },
+      { "group": "default_zombie_death_drops", "prob": 100, "damage": [ 1, 3 ] }
+    ]
+  }
+]

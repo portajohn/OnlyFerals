@@ -1,0 +1,17 @@
+[
+{
+    "id": "mon_feral_medical_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "scalpel", "prob": 75, "damage": [ 1,2 ]},
+      { "group": "lab_torso", "damage": [ 1, 4 ] },
+      { "group": "lab_pants", "damage": [ 1, 4 ] },
+      { "group": "lab_shoes", "damage": [ 1, 4 ] },
+      { "group": "underwear", "damage": [ 1, 4 ] },
+      { "group": "hazmat_gloves", "damage": [ 1, 4 ] },
+      { "group": "hazmat_masks", "damage": [ 1, 4 ] },
+      { "group": "gear_medical" }
+    ]
+  }
+]
