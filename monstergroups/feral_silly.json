@@ -1,0 +1,17 @@
+[
+{
+    "id": "mon_feral_human_truther",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_template",
+    "name": { "str": "feral truther" },
+    "description": "The tinfoil hat and sheer insanity in the eyes of this crazed individual would seem to indicate that their descent into savagery only amplified some pre-existing madness. They mutter incoherently about water supplies and frog mutations. It would be unwise to approach them.",
+    "//": "description courtesy of cerealkiller on discord :3",
+    "looks_like": "mon_zombie",
+    "special_attacks": [
+      { "id": "feral_weapon_fist" },
+      [ "BROWSE", 100 ],
+      [ "EAT_FOOD", 100 ]
+       ],
+    "death_drops": "mon_feral_truther_death_drops"
+}
+]
