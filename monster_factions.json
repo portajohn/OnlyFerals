@@ -1,0 +1,26 @@
+[
+{
+    "type": "MONSTER_FACTION",
+    "name": "military",
+    "base_faction": "bot",
+    "neutral": [ "military_personnel",  "passive_machine" ]
+  },
+{
+    "type": "MONSTER_FACTION",
+    "name": "military_personnel",
+    "base_faction": "zombie",
+    "neutral": [ "military" ]
+  },
+{
+    "type": "MONSTER_FACTION",
+    "name": "rioter",
+    "base_faction": "zombie",
+    "hate": [ "police" ]
+  },
+{
+    "type": "MONSTER_FACTION",
+    "name": "police",
+    "base_faction": "zombie",
+    "hate": [ "rioter" ]
+  }
+]

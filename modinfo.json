@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "only_ferals",
+    "name": "OnlyFerals V.0.1",
+    "authors": [ "Rookknight" ],
+    "description": "WIP mod made with the intent of replacing most classic zombies with new, custom, feral equivalents.",
+    "category": "creatures",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "species": [ "ZOMBIE" ]
+  }
+]
