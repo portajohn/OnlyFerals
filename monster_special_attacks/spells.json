@@ -1,0 +1,68 @@
+[
+
+  {
+    "type": "SPELL",
+    "id": "runner_frenzy",
+    "name": { "str": "Sprinting" },
+    "description": "Speeds up self temporarily.",
+    "valid_targets": [ "self" ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "sprinting",
+    "max_level": 1,
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "base_casting_time": 1,
+    "//": "casting time of 1 to represent no cost, offset by cooldown",
+    "flags": [ "NO_EXPLOSION_SFX" ]
+  },
+  {
+    "id": "rust_armorer",
+    "type": "SPELL",
+    "name": { "str": "Rust Armorer Upgrade" },
+    "description": "Upgrades ferals in a large AoE.",
+    "valid_targets": [ "ally" ],
+    "targeted_monster_ids":  [
+    "mon_feral_rust_0",
+    "mon_feral_rust_1",
+    "mon_feral_rust_2",   
+    "mon_feral_rust_3",
+    "mon_feral_rust_4",   
+    "mon_feral_rust_5",
+    "mon_feral_rust_6"],
+    "flags": [ "SILENT", "NO_EXPLOSION_SFX" ],
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "min_damage": 5000,
+    "max_damage": 5000,
+    "shape": "blast",
+    "effect": "upgrade",
+    "base_casting_time": 0
+  },
+  {
+    "type": "SPELL",
+    "id": "rust_frenzy",
+    "name": { "str": "Rust Warboss Buff" },
+    "description": "Buffs allies temporarily",
+    "valid_targets": [ "ally" ],
+    "targeted_monster_ids":  [
+    "mon_feral_rust_0",
+    "mon_feral_rust_1",
+    "mon_feral_rust_2",   
+    "mon_feral_rust_3",
+    "mon_feral_rust_4",   
+    "mon_feral_rust_5",
+    "mon_feral_rust_6"],
+   
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "frenzy",
+    "max_level": 1,
+    "min_range": 10,
+    "max_range": 10,
+    "min_duration": 9000,
+    "max_duration": 9000,
+    "base_casting_time": 0,
+    "flags": [ "SILENT", "NO_EXPLOSION_SFX" ]
+  }
+]

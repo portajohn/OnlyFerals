@@ -1,0 +1,73 @@
+[
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "gouge_eyes",
+    "cooldown": 1,
+    "move_cost": 100,
+   "effects": [ { "id": "blind", "duration": 5, "chance": 100, "affect_hit_bp": true} ],
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 3 } ],
+    "body_parts": [
+      [ "eyes", 2 ]
+    ],
+    "hit_dmg_u": "%1$s gouges your %2$s!",
+    "hit_dmg_npc": "%1$s gouges <npcname>'s eyes!",
+    "miss_msg_u": "%1$s tries to gouge your %2$s, but you dodge!",
+    "miss_msg_npc": "%1$s tries to gouge <npcname>'s eyes, but they dodge!",
+    "no_dmg_msg_u": "%1$s tries to gouge your %2$s, but fails to penetrate your armor.",
+    "no_dmg_msg_npc": "%1$s tries to gouge <npcname>'s eyes, but fails to penetrate their armor.",
+    "dodgeable": true,
+    "blockable": true
+  },
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "feral_weapon_fist",
+    "cooldown": 1,
+    "move_cost": 75,
+    "accuracy": 4,
+    "//": "Feral melee skill + weapon's to hit, so 5-1=4",
+    "damage_max_instance":[ { "damage_type": "bash", "amount": 10 } ],
+    "condition": { "and": [ { "not": { "u_has_effect": "maimed_arm" } }, { "not": { "u_has_effect": "disarmed" } } ] },
+    "hit_dmg_u": "%1$s punches your %2$s with their fist!",
+    "hit_dmg_npc": "%1$s punches <npcname>'s %2$s with their fist!",
+    "miss_msg_u": "%1$s tries to punch you, but you dodge!",
+    "miss_msg_npc": "%1$s tries to punch <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s punches your %2$s without penetrating your armor.",
+    "no_dmg_msg_npc":  "%1$s punches <npcname>'s %2$s without penetrating their armor."
+  },
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "rust_arm_spikes",
+    "cooldown": 1,
+    "move_cost": 100,
+    "effects": [ { "id": "tetanus", "duration": 300, "chance": 20, "affect_hit_bp": true} ],
+    "damage_max_instance":[ { "damage_type": "stab", "amount": 15 }, { "damage_type": "bash", "amount": 10 } ],
+    "hit_dmg_u": "%1$s bashes your %2$s with their spiked arms!",
+    "hit_dmg_npc": "%1$s bashes <npcname>'s %2$s with their spiked arms!",
+    "miss_msg_u": "%1$s tries to crush you with their spiked arms, but you dodge!",
+    "miss_msg_npc": "%1$s tries to crush <npcname> with their spiked arms, but they dodge!",
+    "no_dmg_msg_u": "%1$s bashes their arms against your %2$s without penetrating your armor.",
+    "no_dmg_msg_npc":  "%1$s bashes their arms against <npcname>'s %2$s without penetrating their armor.",
+    "dodgeable": true,
+    "blockable": true
+  },
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "rust_shoulder_smash",
+    "cooldown": 1,
+    "move_cost": 150,
+   "effects": [ { "id": "tetanus", "duration": 300, "chance": 20, "affect_hit_bp": true} ],
+    "damage_max_instance":[ { "damage_type": "stab", "amount": 15 }, { "damage_type": "bash", "amount": 15 } ],
+    "hit_dmg_u": "%1$s bashes your %2$s with their spiked shoulder!",
+    "hit_dmg_npc": "%1$s bashes <npcname>'s %2$s with their spiked shoulder!",
+    "miss_msg_u": "%1$s tries to shoulder check you, but you dodge!",
+    "miss_msg_npc": "%1$s tries to shoulder check <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s bashes their shoulder against your %2$s without penetrating your armor.",
+    "no_dmg_msg_npc":  "%1$s bashes their shoulder against <npcname>'s %2$s without penetrating their armor.",
+    "dodgeable": true,
+    "blockable": true
+  }
+]
