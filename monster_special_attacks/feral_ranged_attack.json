@@ -20,7 +20,6 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 1 } } ],
     "melee_damage": { "bash": 3 }
   },
-
 {
     "id": "feral_m134-a2_bb_gun",
     "looks_like": "modular_ar15",
@@ -57,6 +56,7 @@
     "volume": "8300 ml",
     "longest_side": "940mm",
     "price": 1890,
+    "clip_size": 500,
     "price_postapoc": 10,
     "material": [ "qt_steel" ],
     "symbol": "(",
@@ -66,10 +66,10 @@
     "dispersion": 3000,
     "durability": 9,
     "range": 10,
-    "reload": 6000,
-    "modes": [ [ "DEFAULT", "low auto", 20 ] ],
+    "reload": 1,
+    "modes": [ [ "DEFAULT", "low auto", 10 ] ],
     "flags": [ "NONCONDUCTIVE", "NO_REPAIR", "NO_SALVAGE", "NO_UNLOAD", "RELOAD_AND_SHOOT" ],
-     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "223": 500 } } ],
+     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "223": 10 } } ],
     "melee_damage": { "bash": 18 }
 
 },

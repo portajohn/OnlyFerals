@@ -233,5 +233,22 @@
     "miss_msg_npc": "%1$s tries to hit <npcname>, but they dodge!",
     "no_dmg_msg_u": "%1$s hits your %2$s without penetrating your armor.",
     "no_dmg_msg_npc": "%1$s hits <npcname>'s %2$s without penetrating their armor."
-  }
+  },
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "feral_weapon_mono_blade",
+    "cooldown": 1,
+    "move_cost": 90,
+    "accuracy": 7,
+    "//": "Feral melee skill + weapon's to hit, so 7+0=7",
+    "damage_max_instance":[ { "damage_type": "cut", "amount": 20 }, { "damage_type": "bash", "amount": 3 } ],
+    "condition": { "and": [ { "not": { "u_has_effect": "maimed_arm" } }, { "not": { "u_has_effect": "disarmed" } } ] },
+    "hit_dmg_u": "%1$s slices your %2$s with its cracked monomolecular blade!",
+    "hit_dmg_npc": "%1$s slices <npcname>'s %2$s with its cracked monomolecular blade!",
+    "miss_msg_u": "%1$s tries to slice you, but you dodge!",
+    "miss_msg_npc": "%1$s tries to slice <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s slices your %2$s without penetrating your armor.",
+    "no_dmg_msg_npc": "%1$s slices <npcname>'s %2$s without penetrating their armor."
+}
 ]
