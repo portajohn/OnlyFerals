@@ -1,0 +1,562 @@
+[
+  {
+    "type": "ARMOR",
+    "category": "armor",
+    "id": "juggernaut_vest_xedra",
+    "name": { "str": "XEDRA plateau vest" },
+    "description": "An extremely large and bulky ballistic vest, made with multiple layers of ballistic kevlar, overlapped to provide maximum protection, at the cost of extreme encumbrance. This one has a black coloring, several IR markings, a string of numbers, and an unreadable barcode, all contained in a small badge-like configuration on the left breast.",
+    "weight": "9000 g",
+    "volume": "12 L",
+    "price": 410160,
+    "price_postapoc": 5900,
+    "warmth": 40,
+    "material": [ "nylon", "kevlar_layered" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "looks_like": "power_armor_basic",
+    "flags": [ "STURDY", "OUTER", "WATER_FRIENDLY" ],
+    "use_action": [ { "type": "attach_molle", "size": 10 }, { "type": "detach_molle" } ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 800,
+        "description": "Pocket for a large armor plate.",
+        "//": "Should fit a medium ESAPI plate snugly",
+        "flag_restriction": [ "ABLATIVE_LARGE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 800,
+        "description": "Pocket for a large armor plate.",
+        "flag_restriction": [ "ABLATIVE_LARGE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "21 cm",
+        "moves": 800,
+        "description": "Pocket for a medium armor plate.",
+        "flag_restriction": [ "ABLATIVE_MEDIUM" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "21 cm",
+        "moves": 800,
+        "description": "Pocket for a medium armor plate.",
+        "flag_restriction": [ "ABLATIVE_MEDIUM" ]
+      }
+     
+    ],
+    "armor": [
+      {
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 8.8 }
+        ],
+        "coverage": 100,
+        "cover_vitals": 100,
+        "covers": [ "torso" ],
+        "encumbrance": [ 31, 55 ]
+      }
+    ]
+  },
+{
+  "id": "juggernaut_helm_xedra",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": {
+    "str": "XEDRA plateau helm"
+  },
+  "description": "An extremely large and bulky ballistic helmet, including a heavy steel visor with a slot of thermoplastic resin to allow vision. While highly protective, this helmet is extremely heavy.",
+  "weight": "1180 g",
+  "volume": "1850 ml",
+  "price": "200 USD",
+  "price_postapoc": "20 USD",
+  "to_hit": -1,
+  "material": [
+    "kevlar_rigid",
+    "thermo_resin",
+    "qt_steel"
+  ],
+  "symbol": "[",
+  "looks_like": "helmet_eod",
+  "color": "dark_gray",
+  "warmth": 20,
+  "techniques": [
+    "WBLOCK_1"
+  ],
+  "flags": [
+    "VARSIZE",
+    "WATERPROOF",
+    "STURDY",
+    "PADDED"
+  ],
+ "armor": [
+    {
+      "encumbrance": 40,
+      "coverage": 100,
+      "covers": [
+        "head"
+      ],
+     "specifically_covers": [
+        "head_crown",
+        "head_forehead",
+        "head_ear_l",
+        "head_ear_r",
+        "head_forehead"
+      ],
+      "material": [
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 95,
+          "thickness": 5
+        },
+        {
+          "type": "plastic_pad",
+          "covered_by_mat": 100,
+          "thickness": 8
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    }, 
+{
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 4.5
+        }
+      ],
+      "covers": [
+        "eyes"
+      ],
+      "coverage": 100,
+      "encumbrance": 15,
+      "layers": [
+        "OUTER"
+      ],
+      "rigid_layer_only": true
+    },
+{
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 5
+        }
+      ],
+      "covers": [
+        "mouth"
+      ],
+      "coverage": 100,
+      "encumbrance": 10,
+      "layers": [
+        "OUTER"
+      ],
+      "rigid_layer_only": true
+    }
+      ],
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "ablative": true,
+      "volume_encumber_modifier": 0,
+      "max_contains_volume": "500 ml",
+      "max_contains_weight": "400 g",
+      "moves": 250,
+      "description": "Pocket for an ear attachment.",
+      "flag_restriction": [
+        "HELMET_EAR_ATTACHMENT"
+      ],
+      "inherits_flags": true
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "volume_encumber_modifier": 0,
+      "max_contains_volume": "400 ml",
+      "max_contains_weight": "400 g",
+      "moves": 250,
+      "description": "Pocket for a counterweight pouch.",
+      "flag_restriction": [
+        "HELMET_BACK_POUCH"
+      ]
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "volume_encumber_modifier": 0,
+      "max_contains_volume": "300 ml",
+      "max_contains_weight": "500 g",
+      "max_item_length": "14 cm",
+      "moves": 100,
+      "description": "Pocket for a flashlight attachment.",
+      "flag_restriction": [
+        "HELMET_HEAD_ATTACHMENT"
+      ],
+      "transparent": true
+    }
+  ],
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "id": "juggernaut_collar_xedra",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": {
+    "str": "XEDRA plateau collar"
+  },
+  "description": "An extremely large and bulky ballistic collar, made to protect the neck. While highly protective, this is extremely heavy.",
+  "weight": "1 kg",
+  "volume": "1 L",
+  "price": "200 USD",
+  "price_postapoc": "20 USD",
+  "to_hit": -1,
+  "material": [
+    "kevlar_layered",
+    "nylon",
+    "qt_steel"
+  ],
+  "symbol": "[",
+  "looks_like": "ballistic_vest_heavy_military",
+  "color": "dark_gray",
+  "warmth": 20,
+  "techniques": [
+    "WBLOCK_1"
+  ],
+  "flags": [
+    "VARSIZE",
+    "WATERPROOF",
+    "STURDY",
+    "PADDED"
+  ],
+ "armor": [
+    {
+      "encumbrance": 20,
+      "coverage": 100,
+      "covers": [
+        "head"
+      ],
+     "specifically_covers": [
+        "head_nape",
+        "head_throat"
+      ],
+      "material": [
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 95,
+          "thickness": 4.4
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 95,
+          "thickness": 4.4
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 5
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    }
+  ]
+},
+{
+    "type": "ARMOR",
+    "category": "armor",
+    "id": "juggernaut_pauldrons_xedra",
+    "name": { "str": "XEDRA plateau pauldrons" },
+    "description": "A large and bulky pair of armored pauldrons, including protection for the upper arms. A heavy steel dome covers each shoulder, underlaid by a layer of ballistic kevlar. These pauldrons are highly protective, at the cost of extreme encumbrance. The fabric parts are colored black, and the right shoulder has some sort of identifying patch, resembling a mountain with a flat peak.",
+    "weight": "4500 g",
+    "volume": "4 L",
+    "price": 100160,
+    "price_postapoc": 5900,
+    "warmth": 40,
+    "material": [ "nylon", "qt_steel", "kevlar_layered" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "flags": [ "STURDY", "OUTER", "WATER_FRIENDLY" ],
+    "armor": [
+    {
+      "encumbrance": 20,
+      "coverage": 100,
+      "covers": [
+        "arm_l",
+        "arm_r"
+      ],
+     "specifically_covers": [
+        "arm_shoulder_l",
+        "arm_shoulder_r"
+      ],
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 95,
+          "thickness": 5
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 8.8
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    },
+    {
+      "coverage": 100,
+      "covers": [
+        "arm_l",
+        "arm_r"
+      ],
+      "specifically_covers": [
+        "arm_upper_l",
+        "arm_upper_r"
+      ],
+      "material": [
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    }
+   ]
+  },
+{
+    "type": "ARMOR",
+    "category": "armor",
+    "id": "juggernaut_vambraces_xedra",
+    "name": { "str": "XEDRA plateau vambraces" },
+    "description": "A heavy pair of armored vambraces that extend from the wrists to the elbows. Heavy steel plates covers the back of the forearms, providing excellent protection at the cost of extreme encumbrance. The fabric parts are colored black, and the steel plate on the left arm bears numerous painted skulls, each one different from the last.",
+    "weight": "4500 g",
+    "volume": "4 L",
+    "price": 100160,
+    "price_postapoc": 5900,
+    "warmth": 40,
+    "material": [ "nylon", "qt_steel", "kevlar_layered", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "armguard_hard",
+    "color": "light_gray",
+    "flags": [ "STURDY", "OUTER", "WATER_FRIENDLY" ],
+    "armor": [
+    {
+      "encumbrance": 20,
+      "coverage": 100,
+      "covers": [
+        "arm_l",
+        "arm_r"
+      ],
+     "specifically_covers": [
+        "arm_elbow_r",
+        "arm_elbow_l"
+      ],
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 60,
+          "thickness": 4
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    },
+    {
+      "coverage": 100,
+      "covers": [
+        "arm_l",
+        "arm_r"
+      ],
+      "specifically_covers": [
+        "arm_lower_l",
+        "arm_lower_r"
+      ],
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 60,
+          "thickness": 4
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+                 ]
+        }
+   ]
+  },
+{
+    "type": "ARMOR",
+    "category": "armor",
+    "id": "juggernaut_cuisses_xedra",
+    "name": { "str": "XEDRA plateau cuisses" },
+    "description": "A bulky set of thigh armor, including a protective plate for the groin. While highly protective, they are extremely encumbering. The fabric parts are colored black, with IR reflectors marking the edges.",
+    "weight": "4500 g",
+    "volume": "4 L",
+    "price": 100160,
+    "price_postapoc": 5900,
+    "warmth": 40,
+    "material": [ "nylon", "qt_steel", "kevlar_layered" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "flags": [ "STURDY", "OUTER", "WATER_FRIENDLY" ],
+    "use_action": [ { "type": "attach_molle", "size": 12 }, { "type": "detach_molle" } ],
+    "armor": [
+    {
+      "encumbrance": 20,
+      "coverage": 100,
+      "covers": [
+        "leg_l",
+        "leg_r"
+      ],
+      "specifically_covers": [
+        "leg_hip_l",
+        "leg_hip_r"
+      ],
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 4
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 8.8
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    },
+    {
+     "coverage": 100,
+      "covers": [
+        "leg_l",
+        "leg_r"
+      ],
+      "specifically_covers": [
+        "leg_upper_l",
+        "leg_upper_r"
+      ],
+      "material": [
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 8.8
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    }
+   ]
+  },
+{
+    "type": "ARMOR",
+    "category": "armor",
+    "id": "juggernaut_greaves_xedra",
+    "name": { "str": "XEDRA plateau greaves" },
+    "description": "A heavy pair of armored greaves that extend from the ankles to the knees. Heavy steel plates covers the front of the shins, providing excellent protection at the cost of extreme encumbrance. The fabric parts are colored black, and the steel plate on the right leg bears an image resembling a stake struck into the ground.",
+    "weight": "4500 g",
+    "volume": "5 L",
+    "price": 100160,
+    "price_postapoc": 5900,
+    "warmth": 40,
+    "material": [ "nylon", "qt_steel", "kevlar_layered", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "legguard_hard",
+    "color": "light_gray",
+    "flags": [ "STURDY", "OUTER", "WATER_FRIENDLY" ],
+    "armor": [
+    {
+      "encumbrance": 20,
+      "coverage": 100,
+      "covers": [
+        "leg_l",
+        "leg_r"
+      ],
+       "specifically_covers": [
+        "leg_lower_r",
+        "leg_lower_l",
+        "leg_knee_r",
+        "leg_knee_l"
+      ],
+      "material": [
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 60,
+          "thickness": 4
+        },
+        {
+          "type": "kevlar_layered",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ]
+    }
+   ]
+  }
+]
