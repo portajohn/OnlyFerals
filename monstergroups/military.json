@@ -30,8 +30,8 @@
       { "monster": "mon_feral_soldier", "weight": 100, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
       { "monster": "mon_feral_soldier", "weight": 150, "cost_multiplier": 2, "pack_size": [ 2, 6 ] },
       { "monster": "mon_feral_military_pilot", "weight": 5 },
-      { "monster": "mon_zombie_bio_op", "weight": 50, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_bio_op2", "weight": 25, "cost_multiplier": 5, "starts": "60 days" },
+      { "monster": "mon_feral_bio_op", "weight": 50, "cost_multiplier": 5 },
+      { "monster": "mon_feral_bio_op", "weight": 25, "cost_multiplier": 5, "starts": "60 days" },
       { "monster": "mon_feral_armored", "weight": 10, "cost_multiplier": 5 },
       { "monster": "mon_feral_soldier", "weight": 15 }
     ]
@@ -42,7 +42,7 @@
     "monsters": [
       { "monster": "mon_feral_soldier", "weight": 645 },
       { "monster": "mon_feral_soldier", "weight": 150, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
-      { "monster": "mon_zombie_milbase_personnel", "weight": 100 },
+      { "monster": "mon_feral_milbase_personnel", "weight": 100 },
       { "monster": "mon_feral_military_pilot", "weight": 45 },
       { "monster": "mon_feral_soldier", "weight": 15 }
     ]
@@ -58,9 +58,8 @@
     "monsters": [
       { "monster": "mon_feral_soldier", "weight": 245 },
       { "group": "GROUP_FERAL_HAZMAT", "weight": 25 },
-      { "monster": "mon_zombie_bio_op", "weight": 5 },
-      { "monster": "mon_zombie_soldier_blackops_1", "weight": 5 },
-      { "monster": "mon_feral_armored", "weight": 1, "cost_multiplier": 5 },
+      { "monster": "mon_feral_bio_op", "weight": 5 },
+      { "monster": "mon_feral_armored", "weight": 6, "cost_multiplier": 5 },
       { "monster": "mon_feral_scientist_scalpel", "weight": 20 },
       { "monster": "mon_feral_medical", "weight": 6 },
       { "monster": "mon_zombie", "weight": 5 }
@@ -75,9 +74,8 @@
       { "monster": "mon_zombie_soldier_acid_1", "weight": 15, "cost_multiplier": 5 },
       { "monster": "mon_zombie_kevlar_1", "weight": 50, "cost_multiplier": 10 },
       { "monster": "mon_feral_military_pilot", "weight": 5 },
-      { "monster": "mon_zombie_milbase_personnel", "weight": 40 },
-      { "monster": "mon_zombie_bio_op", "weight": 30, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_soldier_blackops_1", "weight": 15, "cost_multiplier": 10 },
+      { "monster": "mon_feral_milbase_personnel", "weight": 40 },
+      { "monster": "mon_feral_bio_op", "weight": 30, "cost_multiplier": 15 },
       { "monster": "mon_feral_armored", "weight": 5, "cost_multiplier": 5 },
       { "monster": "mon_null", "weight": 25 },
       { "group": "GROUP_FERAL_HAZMAT", "weight": 25 },
@@ -116,7 +114,7 @@
       { "monster": "mon_feral_sapien_spear", "weight": 2, "cost_multiplier": 25 },
       { "monster": "mon_null", "weight": 25, "cost_multiplier": 2 },
       { "monster": "mon_feral_soldier", "weight": 200, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_milbase_personnel", "weight": 50 },
+      { "monster": "mon_feral_milbase_personnel", "weight": 50 },
       { "monster": "mon_feral_military_pilot", "weight": 5 },
       { "monster": "mon_feral_soldier", "weight": 75 }
     ]
@@ -152,7 +150,7 @@
       { "monster": "mon_feral_sapien_spear", "weight": 2, "cost_multiplier": 25 },
       { "monster": "mon_null", "weight": 25 },
       { "monster": "mon_feral_soldier", "weight": 322, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_milbase_personnel", "weight": 50 },
+      { "monster": "mon_feral_milbase_personnel", "weight": 50 },
       { "monster": "mon_feral_military_pilot", "weight": 20 },
       { "monster": "mon_feral_scientist_scalpel", "weight": 100 },
       { "monster": "mon_feral_soldier", "weight": 75 }
