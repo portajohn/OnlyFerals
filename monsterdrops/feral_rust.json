@@ -1,0 +1,201 @@
+[
+ {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "light_scrap_armor",
+    "entries": [
+      { "item": "cuirass_scrap", "damage": [ 1, 4 ] },
+      { "item": "armguard_scrap", "damage": [ 1, 4 ] },
+      { "item": "legguard_scrap", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "sheet_metal_armor",
+    "entries": [
+      { "item": "chestguard_metal_sheets", "damage": [ 1, 4 ] },
+      { "item": "armguard_metal", "damage": [ 1, 4 ] },
+      { "item": "legguard_metal_sheets", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "rust_spikes",
+    "entries": [
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "rust_junk",
+    "entries": [
+      { "item": "nuts_bolts", "count": [ 1, 2 ], "damage": [ 1, 4 ] },
+      { "item": "sheet_metal", "count": [ 3, 5 ], "damage": [ 1, 4 ] },
+      { "item": "screwdriver", "count": [ 0, 1 ], "damage": [ 1, 4 ] },
+      { "item": "hammer", "count": [ 0, 1 ], "damage": [ 1, 4 ] },
+      { "item": "scrap", "count": [ 0, 20 ], "damage": [ 1, 4 ] },
+      { "item": "spiked_plate", "count": [ 0, 1 ], "damage": [ 1, 4 ] },
+      { "item": "steel_lump", "count": [ 0, 5 ], "damage": [ 1, 4 ] },
+      { "item": "lc_steel_chunk", "count": [ 0, 5 ], "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "heavy_sheet_metal_armor",
+    "entries": [
+      { "item": "chestguard_metal_sheets_heavy", "damage": [ 1, 4 ] },
+      { "item": "armguard_metal", "damage": [ 1, 4 ] },
+      { "item": "legguard_metal_sheets", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_feral_rust_death_drops_shard",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "item": "spike", "damage": [ 1, 2 ] },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_feral_rust_death_drops_wrench",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "light_scrap_armor" },
+      { "item": "wrench_large", "damage": [ 1, 2 ] },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_rusting_knight_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "sheet_metal_armor", "damage": [ 1, 4 ] },
+      {
+      "distribution": [
+          { "item": "sword_crude_large",   "prob": 90, "damage": [ 2, 4 ] },
+          { "item": "sword_metal_large", "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "sword_sheets_welded_large",   "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_spiked_rust_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "light_scrap_armor", "damage": [ 1, 4 ] },
+     { "group": "rust_spikes" },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_spear_rust_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "sheet_metal_armor"},
+      { "group": "rust_spikes" },
+      { "item": "sharp_rebar", "damage": [ 2, 3 ] },
+      { "item": "sharp_rebar", "damage": [ 2, 3 ] },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_hammer_rust_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "light_scrap_armor"},
+      { "item": "knuckle_impact", "damage": [ 2, 3 ] },
+      { "item": "hat_hard", "variant": "yellow_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_inventor_rust_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "rust_junk" },
+      { "item": "backpack_hiking", 
+"damage": [ 1, 3 ] },
+      { "item": "hat_hard", "variant": "white_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  },
+{
+    "id": "mon_rust_warboss_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "clothing_work_set", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_boots", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_glasses", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_gloves", "damage": [ 1, 4 ] },
+      { "group": "clothing_work_mask", "damage": [ 1, 4 ] },
+      { "group": "heavy_sheet_metal_armor", "damage": [ 1, 4 ] },
+      {
+      "distribution": [
+          { "item": "sword_crude_large",   "prob": 90, "damage": [ 2, 4 ] },
+          { "item": "sword_metal_large", "prob": 5, "damage": [ 2, 4 ] },
+          { "item": "sword_sheets_welded_large",   "prob": 5, "damage": [ 2, 4 ] }
+        ] },
+      { "item": "hat_hard", "variant": "white_hat_hard", "damage": [ 1, 3 ], "contents-group": "worker_kitted_hard_hat" },
+      { "group": "underwear", "damage": [ 1, 4 ] }
+    ]
+  }
+]
