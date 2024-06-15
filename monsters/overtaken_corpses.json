@@ -1,0 +1,100 @@
+[
+{
+    "id": "mon_fungal_skeleton",
+    "type": "MONSTER",
+    "name": { "str": "fungal skeleton" },
+    "description": "A long dead human corpse, this skeleton is now animated by the unnatural fungus that covers it. Dense, fungal growth has overtaken the skull and ribcage, while thick tendrils extend throughout the arms. A massive cap sprouts from the base of the neck, completely enclosing everything above the shoulders. Small clouds of spores propagated by gills, set within the exposed ribcage. Tendrils wrap across the bones of the arms and extend to the hands, ending in thick fungal clubs. Nothing remains of the original legs, having been replaced by three thick fungal stalks.",
+    "//1": "Shortening courtesy of Braethias",
+     "default_faction": "fungus",
+    "looks_like": "mon_skeleton_fungus",
+    "bodytype": "human",
+    "species": [ "FUNGUS" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 190,
+    "//2": "More sturdy for the fact it has an actual skeleton,  instead of fungal supports",
+    "speed": 50,
+    "bleed_rate": 0,
+    "material": [ "veggy", "bone" ],
+    "symbol": "S",
+    "color": "light_gray",
+    "aggression": -50,
+    "morale": 100,
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "weakpoint_sets": [ "wps_humanoid_body", "wps_fungaloid" ],
+    "families": [ "prof_intro_biology", "prof_physiology", "prof_wp_fungaloid_basic", "prof_wp_fungaloid_advanced" ],
+    "harvest": "fungi_bones",
+    "vision_day": 40,
+    "vision_night": 1,
+    "armor": {
+    "bash": 10,
+    "cut": 10,
+    "bullet": 6,
+    "electric": 1
+  },
+    "special_attacks": [
+      { "id": "fungi_weapon_club" },
+      [ "FUNGUS", 20 ]
+    ],
+    "death_drops": "feral_human_fungal_infected_death_drops",
+    "flags": [
+    "STUMBLES",
+    "POISON",
+    "NO_BREATHE"
+    ]
+},
+{
+    "id": "mon_plant_skeleton",
+    "type": "MONSTER",
+    "name": { "str": "verdant skeleton" },
+    "description": "A long dead human corpse, little remains of the body this once was. Dense, unnaturally verdant plant growth has overtaken the skull and ribcage, while woody vines extend throughout the arms. Flowers blossom from empty eye sockets, while explosive vine growth has completely enclosed everything above the shoulders. Small clouds of pollen fall from numerous flowers growing within the exposed ribcage. Thick vines wrap across the bones of the arms and extend past the hands, ending in thorny stingers. The original leg bones have been overgrown with thick roots, allowing it to walk, albeit slowly. Nature is healing.",
+    "//1": "triffid boi",
+     "default_faction": "triffid",
+    "looks_like": "mon_zombie_thorny",
+    "bodytype": "human",
+    "species": [ "PLANT" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 100,
+    "//2": "More sturdy for the fact it has an actual skeleton,  instead of plant based alternatives",
+    "speed": 40,
+    "bleed_rate": 60,
+    "material": [ "veggy", "bone" ],
+    "symbol": "v",
+    "color": "light_green",
+    "aggression": 20,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "weakpoint_sets": [ "wps_humanoid_body", "wps_triffid" ],
+    "families": [ "prof_intro_biology", "prof_physiology", "prof_wp_triffid_basic", "prof_wp_triffid_advanced" ],
+    "harvest": "plant_bones",
+    "vision_day": 40,
+    "vision_night": 1,
+    "special_attacks": [
+    [
+      "PARA_STING",
+      30
+    ]
+    ],
+    "armor": {
+    "bash": 10,
+    "cut": 10,
+    "bullet": 6,
+    "electric": 1
+  },
+    "death_drops": "plant_skeleton_death_drops",
+    "flags": [
+    "STUMBLES",
+    "SEES",
+    "SMELLS",
+    "HAS_MIND",
+    "BASHES",
+    "GROUP_BASH",
+    "PARALYZEVENOM"
+    ]
+}
+]

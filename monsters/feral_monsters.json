@@ -1,0 +1,123 @@
+[ 
+  {
+    "id": "mon_feral_hollow",
+    "type": "MONSTER",
+    "name": { "str": "feral hollow" },
+    "description": "Unnaturally hard to see, this gaunt person is nothing but leathery skin, stretched taut over an elongated skeleton. A set of beady eyes peer from inside deep sockets, while its lips and teeth take the form of interlocked fingers. Its proportions have been altered by something too bizarre to have ever been human. An unnatural shadow clings to its form, seeming to strengthen it.",
+    "default_faction": "hollow",
+    "looks_like": "mon_zombie_master",
+    "bodytype": "human",
+    "species": [ "FERAL" ],
+    "volume": "40000 ml",
+    "weight": "1500 g",
+    "hp": 60,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "H",
+    "color": "dark_gray",
+    "aggression": 30,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_physiology" ],
+    "dodge": 5,
+    "harvest": "zombie_meatslug",
+    "dissect": "dissect_human_sample_single",
+    "vision_day": 50,
+    "vision_night": 50,
+    "path_settings": { "max_dist": 45, "avoid_traps": true, "avoid_sharp": true },
+    "special_attacks": [
+          {
+      "id": "scratch_humanoid"
+    },
+    {
+      "id": "stretch_bite"
+    },
+    {
+      "id": "stretch_attack",
+      "cooldown": 5
+    }
+    ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
+    "flags": [
+      "NO_BREATHE",
+      "HARDTOSHOOT",
+      "SUNDEATH",
+      "HIT_AND_RUN",
+      "PHOTOPHOBIC",
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "HARDTOSHOOT",
+      "NIGHT_INVISIBILITY",
+      "NO_FUNG_DMG",
+      "HUMAN",
+      "PATH_AVOID_DANGER_1"
+    ],
+      "death_function": {
+      "message": "A horrific entity flees from the shredded remains of the hollow!"
+    }
+},
+{
+    "id": "mon_feral_wendigo",
+    "type": "MONSTER",
+    "name": { "str": "wendigo" },
+    "description": "Towering over the average person, this gaunt person is nothing but leathery skin, stretched taut over an elongated skeleton. A set of beady eyes peer from inside a hollow deer skull. Unsettling grunts and howls echo from underneath its mask as it searches for prey.",
+    "default_faction": "hollow",
+    "looks_like": "mon_gracke",
+    "bodytype": "human",
+    "species": [ "FERAL" ],
+    "volume": "40000 ml",
+    "weight": "1500 g",
+    "hp": 80,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "H",
+    "color": "dark_gray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_physiology" ],
+    "dodge": 5,
+    "harvest": "zombie_meatslug",
+    "dissect": "dissect_human_sample_single",
+    "vision_day": 50,
+    "vision_night": 50,
+    "path_settings": { "max_dist": 45, "avoid_traps": true, "avoid_sharp": true },
+    "special_attacks": [
+          {
+      "id": "scratch_humanoid"
+    },
+    {
+      "id": "stretch_bite"
+    },
+    {
+      "id": "stretch_attack",
+      "cooldown": 5
+    }
+    ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
+    "flags": [
+      "NO_BREATHE",
+      "HARDTOSHOOT",
+      "HIT_AND_RUN",
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "HARDTOSHOOT",
+      "NO_FUNG_DMG",
+      "HUMAN",
+      "PATH_AVOID_DANGER_1"
+    ],
+      "death_function": {
+      "message": "The deer skull mask shatters, leaving nothing but a emaciated corpse!"
+    }
+}
+]
