@@ -1,0 +1,42 @@
+[
+{
+    "id": "fungi_bones",
+    "//": "Human sized mass, only skeleton+ligaments, the rest is mold",
+    "type": "harvest",
+    "entries": [
+      { "drop": "skull_human", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
+      { "drop": "veggy_tainted", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "veggy_tainted", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "plant_sac", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "plant_sac", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "plant_sac", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
+      { "drop": "veggy", "type": "bone", "mass_ratio": 0.005 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 }
+    ]
+  },
+{
+    "id": "plant_bones",
+    "//": "Human sized mass, only skeleton+ligaments, the rest is plant based alternatives",
+    "type": "harvest",
+    "entries": [
+      { "drop": "skull_human", "type": "bone", "scale_num": [ 1, 1 ], "max": 1 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "stick", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "venom_paralytic", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "stick_fiber", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "plant_sac", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "plant_sac", "type": "offal", "mass_ratio": 0.002 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.12 },
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.005 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 }
+    ]
+  }
+]
