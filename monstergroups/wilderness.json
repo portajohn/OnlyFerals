@@ -1,0 +1,13 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_WILDERNESS_FOREST_ZOMBIE",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_null", "weight": 99 },
+      { "monster": "mon_feral_wendigo", "weight": 1 },
+      { "monster": "mon_feral_hollow", "weight": 1 }
+    ]
+  }
+]

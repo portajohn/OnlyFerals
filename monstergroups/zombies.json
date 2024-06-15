@@ -673,7 +673,7 @@
     "monsters": [
       { "monster": "mon_null", "weight": 486 },
       { "group": "GROUP_CIVILIANS_STANDARD", "weight": 100, "cost_multiplier": 0 },
-      { "group": "GROUP_FERROUS", "weight": 3000, "cost_multiplier": 2 },
+      { "group": "GROUP_FERROUS", "weight": 30, "cost_multiplier": 2 },
       { "monster": "mon_fat_feral", "weight": 45, "cost_multiplier": 2 },
       { "monster": "mon_fat_feral", "weight": 3, "cost_multiplier": 7, "pack_size": [ 3, 5 ] },
       { "monster": "mon_feral_tough_pipe_mace", "weight": 50, "cost_multiplier": 3 },
