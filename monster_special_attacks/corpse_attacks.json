@@ -1,0 +1,18 @@
+[
+{
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "fungi_weapon_club",
+    "cooldown": 1,
+    "move_cost": 100,
+    "accuracy": 3,
+    "damage_max_instance":[ { "damage_type": "bash", "amount": 20 } ],
+    "condition": { "and": [ { "not": { "u_has_effect": "maimed_arm" } }, { "not": { "u_has_effect": "disarmed" } } ] },
+    "hit_dmg_u": "%1$s whacks your %2$s with their arm!",
+    "hit_dmg_npc": "%1$s whacks <npcname>'s %2$s with their arm!",
+    "miss_msg_u": "%1$s tries to whack you, but you dodge!",
+    "miss_msg_npc": "%1$s tries to whack <npcname>, but they dodge!",
+    "no_dmg_msg_u": "%1$s whacks your %2$s without penetrating your armor.",
+    "no_dmg_msg_npc":  "%1$s whacks <npcname>'s %2$s without penetrating their armor."
+  }
+]
